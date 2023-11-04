@@ -194,7 +194,7 @@ section h2 {
     color: #333; /* GitHub icon color */
 }
 .social-icons .fa-envelope {
-    color: #000;
+    color: #fff;
     fill: red;
 }
 .social-icons a.fa-linkedin {
