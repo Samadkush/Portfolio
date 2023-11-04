@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABDSAMAD Portfolio</title>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://kit.fontawesome.com/5d55029dea.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="indexstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <header class="header-bg">
+        <h1>ABDSAMAD KABIR-KUSHORO</h1>
+        <h2 class="jobtitle">FULL-STACK WEB DEVELOPER</h2>
+        <div class="picture-container">
+            <img src="picture.jpg" class="picture" alt="mypicture">
+        </div>
+                <nav>
+            <ul>
+                <li><a href="#about" class="header-link">ABOUT ME</a></li>
+                <li><a href="#portfolio" class="header-link">PORTFOLIO</a></li>
+                <li><a href="#contact" class="header-link">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <section id="about" class="about-bg">
+            <h2>ABOUT ME</h2>
+            <div class="about-text">
+                <p></p>
+                <!-- The typewriter text will be added here dynamically with JavaScript -->
+            </div>
+        </section>
+        <section id="portfolio" class="portfolio-bg">
+            <h2>PORTFOLIO</h2> 
+            <div class="portfolio-container"> 
+              <div class = "carousel">
+                <img src="picture.jpg" class="carousel-img" alt="Project Snippet">
+              </div> 
+              <div class = "carousel"></div> 
+              <div class = "carousel"></div> 
+            </div>
+        </section>        
+        <section id="contact" class="contact-bg">
+            <h2>CONTACT ME</h2>
+            <h3 class = "comment">Leave a message or a comment</h3>
+            <div class="contact-form">
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit">Send</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        
+    </div>
+            <footer>
+            <div class="social-icons">
+                <h2>Connect With Me :</h2>
+                <a href="https://github.com/yourusername" target="_blank" class="fab fa-github"></a>
+                <a href="https://www.linkedin.com/in/yourusername" target="_blank" class="fab fa-linkedin"></a>
+                <a href="https://twitter.com/yourusername" target="_blank" class="fab fa-x-twitter"></a>
+                <a href="https://www.instagram.com/yourusername" target="_blank" class="fab fa-instagram"></a>
+                <a href="mailto:samadkushoro2019@gmail.com" title="Email">
+                    <i class="far fa-envelope"></i>
+                </a>
+            </div>
+            </footer>
+       
+    <div id="particles-js" class="background"></div>
+    <script src="index.js"></script>
+</body>
+</html>

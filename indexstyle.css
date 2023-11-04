@@ -1,0 +1,313 @@
+html, body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth scroll;
+}
+
+/* Set a background color for the entire page with transition */
+body {
+    font-family: 'Courier New', Courier, monospace; /* Typewriter font */
+    margin: 0;
+    position: relative;
+    z-index: 1; /* Ensure content is above particles background */
+    background-color: #0077B5; /* Blue background color */
+    transition: background-color 0.5s ease; /* Color transition */
+}
+
+/* Style the header and nav */
+.header-bg {
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.jobtitle{
+    font-style: normal ;
+    font-size : 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: #0077B5;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style-type: none;
+    margin-top: 1rem;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: lighter;
+    transition: color 0.3s ease;
+    font-size:20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+nav ul li a:hover {
+    color:#0077B5;/* Light gray-blue on hover */
+    border-radius: 4px;
+    background-color:transparent;
+    opacity:40%;
+    width:100%;
+    padding:10px;
+    border: 2px solid black;
+    border-color: #0077B5;
+
+}
+
+/* Style the sections */
+.section-bg {
+    margin: 2rem 0;
+    padding: 2rem;
+    border: 2px solid #fff; /* Add a blue border around sections */
+    border-radius: 0.375rem; /* Rounded corners */
+    background-color: rgba(255, 255, 255, 0.9); /* White background with slight opacity */
+}
+
+/* Additional styling for h2 within sections */
+section h2 {
+    color: #3498db; /* Blue color for section headings */
+    font-size: 40px;
+    margin-bottom: 1rem;
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: bolder;
+}
+
+/* Style the container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 0.375rem; /* Rounded corners */
+    min-height: 100vh;
+}
+.about-text{
+    color: white;
+}
+/* Style for the contact section */
+#contact {
+    text-align: center;
+    padding: 2rem;
+    background-color: transparent;
+    color: #fff;
+   
+}
+#contact h2{
+    color : #3498db;;
+    font-size: 40px;
+}
+.comment {
+    color:#e64a19;
+    text-align: left;
+    padding-left:165px;
+}
+.comment1{
+    color:#e64a19;
+    text-align: left;
+    padding-left: 165px;
+}
+
+/* Style for the contact form */
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-group {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-family: 'Helvetica', sans-serif; /* Change the font to your preference */
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.form-group textarea {
+    height: 150px;
+}
+
+.form-group input[type="submit"] {
+    background-color: #0077B5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: 'Arial', sans-serif; /* Change the font to your preference */
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #0077B5;
+}
+
+/* Style for social media icons (using FontAwesome) */
+.social-icons {
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/* Style individual social media icons */
+.social-icons a {
+    font-size: 40px; /* Increase icon size */
+    margin-right: 40px; /* Increase spacing between icons */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px; /* Increase the radius for icons */
+    display: inline-block;
+    justify-content: center;
+}
+
+/* Style individual social media icons with specific colors */
+.social-icons a.fa-github {
+    color: #333; /* GitHub icon color */
+}
+.social-icons .fa-envelope {
+    color: #000;
+    fill: red;
+}
+.social-icons a.fa-linkedin {
+    color: #0077B5; /* LinkedIn icon color */
+}
+
+/* Use the new Twitter logo */
+.social-icons a.fa-x-twitter {
+    color: #fff; /* Twitter icon color */
+}
+
+.social-icons a.fa-instagram {
+    color: #E4405F; /* Instagram icon color */
+}
+/* Style for the particles background */
+#particles-js {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: #000; /* Match the body background color */
+}
+
+/* Style for the circular image */
+.picture {
+    width: 100px; /* Maintain aspect ratio */
+    height: 100px; /* Set the desired height */
+    border-radius: 50%; /* Makes the image circular */
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+    object-fit: cover;
+}
+
+
+
+/* Style for the container in the portfolio section */
+#portfolio .container{
+    font-family: 'Courier New', Courier, monospace; /* Typewriter font */
+    z-index: 1; /* Ensure content is above particles background */
+    background-color: transparent; /* Blue background color */
+   transition: background-color 0.5s ease; /* Color transition */
+
+}
+.portfolio-container {
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent carousels from wrapping to the next line */
+    gap: 20px; /* Add spacing between carousels */
+}
+
+.portfolio-container p{
+font-weight: normal;
+font-family:'Arial', sans-serif;
+text-align: center;
+font-size: 20px;
+}
+
+.portfolio-container div{
+    width: 300px;
+    margin: 0 auto; /* Center divs horizontally */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 0.375rem; /* Rounded corners */
+    height: 200px;
+    margin-bottom: 10px; /* Add margin between the divs for spacing */
+    margin-right: 20px;
+    overflow-x: auto;
+    white-space: nowrap;
+    
+}
+
+
+.carousel{
+    margin: 0; /* Reset margin */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 0.375rem;
+    display: inline-block; /* Display divs inline */
+    margin-right: 20px; /* Add margin between divs */
+    border: 2px solid gray;
+   
+}
+.carousel img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+}
+button{
+    background-color: #0077B5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: 'Arial', sans-serif; /* Change the font to your preference */
+    margin: 0 150px;
+    text-align: center
+}
+footer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    top: 20px;
+    justify-content: center;
+
+}
+.social-icons h2{
+    color: #0077B5;
+    font-weight: bold ;
+    bottom: 10px;
+    text-align: center;
+    
+}

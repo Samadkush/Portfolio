@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 1920 1080">
+    <!-- Background: Sky -->
+    <rect x="0" y="0" width="100%" height="100%" fill="#87CEEB" />
+
+    <!-- Create a group for the rolling pyramids -->
+    <g id="rollingPyramids">
+        <!-- Pyramid 1 -->
+        <polygon points="100,950 130,850 70,850" fill="#FFA500" />
+
+        <!-- Pyramid 2 -->
+        <polygon points="300,950 330,850 270,850" fill="#FFA500" />
+
+        <!-- Add more pyramids as needed -->
+    </g>
+</svg>
